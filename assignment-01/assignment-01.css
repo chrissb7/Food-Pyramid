@@ -1,0 +1,437 @@
+
+        
+        body {
+            font: 14px/24px Arial, sans-serif;
+        }
+
+        /* ///////////////////////////////////////////////////////////////////////////////// */
+        .numberCircle
+        {
+            display: none;
+        }
+
+        .numberCircle::before,
+        .numberCircle::after {
+            content: '\200B';
+            display: inline-block;
+            line-height: 0px;
+            padding-top: 50%;
+            padding-bottom: 50%;
+        }
+
+        .numberCircle::before {
+            padding-left: 0.35em;
+        }
+
+        .numberCircle::after {
+            padding-right: 0.35em;
+        }
+
+        .numberCircle:hover {
+            background-color: yellow;
+        }
+
+        .tabular {
+            font-family: monospace;
+        }       
+
+
+        h1 {
+            text-align: center;
+        }
+
+        .countCircle {
+            
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+            
+        }
+
+        .countCircle::before,
+        .countCircle::after {
+            content: '\200B';
+            display: inline-block;
+            line-height: 0px;
+            padding-top: 50%;
+            padding-bottom: 50%;
+        }
+
+        .countCircle::before {
+            padding-left: 0.35em;
+        }
+
+        .countCircle::after {
+            padding-right: 0.35em;
+        }
+
+        .countCircle:hover {
+            background-color: yellow;
+        }
+
+        .list{
+        display: inline-block;
+        position: absolute;
+        top: 85%;
+        left: 49%;
+        margin-top: -30px;
+        margin-left: -50px;
+        width: 150px;
+        height: 50px;
+        justify-content: center;
+        outline-style:double;
+
+    }
+
+    
+
+       /* ////////////////////////////TRIANGLE STYLE ( RED TRIANGLE )////////////////////////////////////////////////// */  
+        
+        .triangle {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width: 0px;
+            height: 0px;
+            border-color: transparent transparent red transparent;
+            border-style: solid;
+            border-width: 0px 90px 90px 90px;
+            position: relative;
+            margin: auto auto;
+            } 
+
+            .trapezium6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            width: 180px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        .trapezium6::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid red;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+
+        .trapezium6::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid red;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+
+        .trapezium6:hover  .numberCircle
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+          
+        
+        /* ////////////////////////////TRAPEZIUM 3 STYLE ( ORANGE TRAPEZIUM)////////////////////////////////////////////////// */
+        
+        .trapezium1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            width: 380px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        
+
+        .trapezium1::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid orange;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+        
+       
+
+        .trapezium1::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid orange;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+
+        .trapezium1:hover  .numberCircle
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+
+        
+           
+     /* ////////////////////////////TRAPEZIUM 3 STYLE ( YELLOW TRAPEZIUM )////////////////////////////////////////////////// */
+
+        .trapezium2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            width: 580px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        .trapezium2::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid yellow;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+
+        .trapezium2::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid yellow;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+
+        
+        .trapezium2:hover  .numberCircle
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+      
+
+        /* ////////////////////////////TRAPEZIUM 3 STYLE ( BLUE TRAPEZIUM)////////////////////////////////////////////////// */
+
+        .trapezium3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            width: 760px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        .trapezium3::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid blue;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+
+        .trapezium3::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid blue;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+
+        .trapezium3:hover  .numberCircle
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+      
+         /* ////////////////////////////TRAPEZIUM 4 STYLE ( BROWN TRAPEZIUM )////////////////////////////////////////////////// */
+        .trapezium4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            width: 940px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        .trapezium4::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid brown;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+
+        .trapezium4::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid brown;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+
+        .trapezium4:hover  .numberCircle
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+       
+
+        /* ////////////////////////////TRAPEZIUM 5 STYLE ( GREEN TRAPEZIUM )////////////////////////////////////////////////// */
+
+        .trapezium5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            width: 1120px;
+            height: 90px;
+            position: relative;
+            margin: auto auto;
+        }
+
+        .trapezium5::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid green;
+            border-left: 90px solid transparent;
+            position: absolute;
+            right: 100%;
+            top: 0px;
+        }
+
+        .trapezium5::after {
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-bottom: 90px solid green;
+            border-right: 90px solid transparent;
+            position: absolute;
+            left: 100%;
+            top: 0px;
+        }
+         .numberCircle5
+        
+        {
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+        .numberCircle5::before,
+        .numberCircle5::after {
+            content: '\200B';
+            display: inline-block;
+            line-height: 0px;
+            padding-top: 50%;
+            padding-bottom: 50%;
+        }
+
+        .numberCircle5::before {
+            padding-left: 0.35em;
+        }
+
+        .numberCircle5::after {
+            padding-right: 0.35em;
+        }
+
+        
+
+        .countCircle5 {
+            
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid;
+            font-size: 32px;
+            background-color:white;
+        }
+
+        .countCircle5::before,
+        .countCircle5::after {
+            content: '\200B';
+            display: inline-block;
+            line-height: 0px;
+            padding-top: 50%;
+            padding-bottom: 50%;
+        }
+
+        .countCircle5::before {
+            padding-left: 0.35em;
+        }
+
+        .countCircle5::after {
+            padding-right: 0.35em;
+        }
+
+        .countCircle5:hover {
+            background-color: yellow;
+        }
+
+        
+        /* ////////////////////////////////////////////////////////////////////////////// */
+    
+
